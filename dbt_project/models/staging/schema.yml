@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_pluto
+    columns:
+      - name: borough
+        tests:
+          - not_null
+      - name: lotarea
+        tests:
+          - not_null
+      - name: landuse
+        tests:
+          - not_null
