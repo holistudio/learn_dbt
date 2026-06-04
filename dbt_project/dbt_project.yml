@@ -35,3 +35,9 @@ models:
     example:
       +materialized: view
       +enabled: false
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
