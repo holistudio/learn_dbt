@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: int_vacant_lots
+    columns:
+      - name: landuse
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['11']
