@@ -5,4 +5,4 @@ WITH source AS (
 SELECT 
     * EXCEPT (lotarea),
     SAFE_CAST(lotarea AS NUMERIC) AS lotarea
-FROM source_data;
+FROM source_data
