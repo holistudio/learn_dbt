@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: pluto_raw
+    database: empty-497114
+    schema: pluto_raw
+    tables:
+      - name: pluto
