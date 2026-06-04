@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: mart_vacancy_by_borough
+    columns:
+      - name: borough
+        tests:
+          - not_null
+          - unique
