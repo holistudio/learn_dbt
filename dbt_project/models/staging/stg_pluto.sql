@@ -1,4 +1,4 @@
-WITH source AS (
+WITH source_data AS (
     SELECT * FROM {{ source('pluto_raw', 'pluto') }}
 )
 
